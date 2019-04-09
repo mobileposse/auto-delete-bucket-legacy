@@ -22,12 +22,12 @@ export const handler = async event => {
   if (event.RequestType === 'Create' || event.RequestType === 'Update') {
     // Nothing to do here - create and update should always succeed
   } else if (status === 'SUCCESS') {
-    try {
-      await emptyBucket(bucketName)
-    } catch (err) {
-      reason = `Unable to empty bucket contents for: ${bucketName} - ${err}`
-      status = 'FAILED'
-    }
+    // try {
+    //   await emptyBucket(bucketName)
+    // } catch (err) {
+    //   reason = `Unable to empty bucket contents for: ${bucketName} - ${err}`
+    //   status = 'FAILED'
+    // }
   }
 
   await sendResponse({
