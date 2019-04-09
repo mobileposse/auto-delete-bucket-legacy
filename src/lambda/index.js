@@ -25,7 +25,7 @@ export const handler = async event => {
     try {
       await emptyBucket(bucketName)
     } catch (err) {
-      // reason = `Unable to empty bucket contents for: ${bucketName} - ${err}`
+      reason = `Unable to empty bucket contents for: ${bucketName} - ${err}`
       status = 'FAILED'
     }
   }
