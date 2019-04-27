@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.3 (2019-04-27)
+
+### Enhancements
+
+- Go back to regular dependencies (so type information for Bucket is available)
+
+# Changelog
+
 ## 1.2.2 (2019-04-26)
 
 ### Enhancements

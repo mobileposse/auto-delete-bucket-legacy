@@ -19,8 +19,9 @@ export class ExampleStack extends Stack {
      * you will need to change the bucketName to something that nobody else is
      * using.
      */
-    new AutoDeleteBucket(this, 'example-autobucket-2', {
+    const bucket = new AutoDeleteBucket(this, 'example-autobucket-2', {
       bucketName: 'autoexample-bucket2'
     })
+    console.log(bucket.bucketWebsiteUrl)
   }
 }
