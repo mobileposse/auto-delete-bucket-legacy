@@ -1,3 +1,11 @@
+# NEW PACKAGE NAME AND REPOSITORY
+
+We have starrted over with a new NPM package name and versioning system. Version numbers now match the AWS CDK version supported.
+
+Please use the [@mobileposse/auto-delete-bucket](https://www.npmjs.com/package/@mobileposse/auto-delete-bucket) module instead.
+
+Source code has moved to [mobileposse/auto-delete-bucket](http://github/mobileposse/auto-delete-bucket)
+
 ## What it does
 
 Creates an S3 bucket in Cloud Formation that will automatically be emptied **before** the bucket is destroyed by Cloud Formation.
