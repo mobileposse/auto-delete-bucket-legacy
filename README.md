@@ -1,6 +1,6 @@
 # NEW PACKAGE NAME AND REPOSITORY
 
-We have starrted over with a new NPM package name and versioning system. Version numbers now match the AWS CDK version supported.
+We have started over with a new NPM package name and versioning system. Version numbers now match the AWS CDK version supported.
 
 Please use the [@mobileposse/auto-delete-bucket](https://www.npmjs.com/package/@mobileposse/auto-delete-bucket) module instead.
 
