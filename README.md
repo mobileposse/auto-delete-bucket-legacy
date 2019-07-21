@@ -4,7 +4,7 @@ We have started over with a new NPM package name and versioning system. Version 
 
 Please use the [@mobileposse/auto-delete-bucket](https://www.npmjs.com/package/@mobileposse/auto-delete-bucket) module instead.
 
-Source code has moved to [mobileposse/auto-delete-bucket](http://github/mobileposse/auto-delete-bucket)
+Source code has moved to [mobileposse/auto-delete-bucket](http://github.com/mobileposse/auto-delete-bucket)
 
 ## What it does
 
